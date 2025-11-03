@@ -142,6 +142,8 @@ margin-bottom: -100px;
   position: relative;
   opacity: 1;
   pointer-events: auto;
+  padding: 12px 22px; /* moderate size for main button */
+  font-size: 1.02rem;
 }
 
 /* Textwechsel beim Hover auf Hauptbutton */
@@ -161,14 +163,17 @@ margin-bottom: -100px;
   transform: translateX(-50%);
   opacity: 0;
   pointer-events: none;
+  padding: 8px 14px;
+  font-size: 0.95rem;
+  border-radius: 16px;
 }
 
 .info-extra.top {
-  top: -70px;
+  top: -48px;
 }
 
 .info-extra.bottom {
-  bottom: -70px;
+  bottom: -48px;
 }
 
 /* Sichtbar beim Hover auf Container */
