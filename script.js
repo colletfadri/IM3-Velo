@@ -81,6 +81,7 @@ function updateMap(mode) {
     .catch(err => console.error("Fehler beim Laden der Kartendaten:", err));
 }
 
+
 // Initialisieren, sobald DOM geladen ist
 document.addEventListener('DOMContentLoaded', initMap);
 
